@@ -1,0 +1,21 @@
+.heading{
+    font-size: 22px;
+    color: #5072A7;
+    margin: 15px;
+}
+
+.inputbtn{
+    font-size: 20px;
+    background: #5072A7;
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+
+}
+.placeholder{
+    border: none;
+}
