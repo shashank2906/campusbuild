@@ -14,6 +14,7 @@ justify-content: space-between;
     width: 70px;
     border-radius: 50%;
     margin-right: 30px;
+    cursor: pointer;
 
 }
 .heading{
@@ -21,5 +22,7 @@ color: #fff;
 font-size: 40px;
 font-weight: 700;
 margin-left: 20px;
+cursor: pointer;
+
 }
 

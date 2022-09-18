@@ -63,12 +63,12 @@ function Login() {
           </div>
 
           <div className={Styles.element2}>
-            {/* <a href="#">Forgot Password</a> */}
+            <a href="#">Forgot Password</a>
           </div>
         </div>
 
         <button className={Styles.btn} onClick={handlesubmit}>Log in</button>
-        <div>Do not have any account ? <Link to="/signup">SignUp</Link></div>
+        <div className={Styles.text}>Do not have any account ? <Link to="/signup"><h5 className={Styles.text_style}>SignUp</h5></Link></div>
       </div>
     </>
   );

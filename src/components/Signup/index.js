@@ -83,7 +83,7 @@ function Signup() {
           </div>
 
           <button className={Styles.btn}>Sign up</button>
-          <div>Already have an account ? <Link to="/login">Login</Link></div>
+          <div className={Styles.text}>Already have an account ? <Link to="/login"><h5 className={Styles.text_style}>Login</h5></Link></div>
         </div>
       </form>
     </>
