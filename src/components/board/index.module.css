@@ -1,7 +1,7 @@
 .containerTop {
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .heading{
@@ -23,11 +23,13 @@
     border: none;
 }
 .placeholder{
-    border: none;
-    background-color: grey;
+    border: 2px solid #5072A7;
+    background-color: #fff;
     border-radius: 5px;
-    margin: 1em;
-    padding: 0.5em 1em;
+    color: #5072A7;
+    /* margin: 1em; */
+    padding: 0.5em 0.5em;
+  
 }
 
 .container{
@@ -42,4 +44,22 @@ border: 2px solid #5072A7;
 height: 50vh;
 width: 30vw;
 margin: 60px;
+}
+
+.bottom{
+    align-self: flex-end;
+    margin-left: 300px;
+    margin-top: 500px;
+}
+.inputbtnbottom{
+    font-size: 50px;
+    background: #5072A7;
+    margin  : 15px;
+    padding-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 1200;
+    border: none;
 }
